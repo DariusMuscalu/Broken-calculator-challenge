@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f3f3f3;
+    text-align: center;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcropper.watch.aetnd.com%2Fcdn.watch.aetnd.com%2Fsites%2F2%2F2018%2F06%2FEinstein-78970955.jpg&f=1&nofb=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+    color: #fefae0;
+    text-shadow: 2px 1px 1px #000;
+    max-width: 500px;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em;
+  }
+  
+  .calculator-frame {
+    background-color: #222;
+    border-radius: 2.3em;
+    padding: 2em 1em;
+  }
+  
+  .calculator-buttons {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(10, 104, 110);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: .5em;
+    border-radius: 2em;
+  }
+  
+  .calculator-buttons p {
+    padding: .5em;
+    border: 1px solid rgb(12, 88, 76);
+    border-radius: 2em;
+  }
+  
+  .calculator-buttons p:hover {
+    cursor: pointer;
+  }
+  
+  .calculator-display {
+    padding: 3.5em 2em;
+    background-color: #085955;
+    width: 200px;
+    border-radius: 2em;
+    margin-bottom: 1em;
+  }
